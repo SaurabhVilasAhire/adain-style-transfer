@@ -88,9 +88,5 @@ examples/                 # real outputs this repo produced, shown in the web de
 ```
 
 ## Credits
-
-Adapted from [shradha-khapra/ai-nst-project](https://github.com/shradha-khapra/ai-nst-project)
-(restructured into a `src/` package shared between the CLI and Flask app,
-hardcoded absolute paths replaced with relative/configurable ones, and the
-AdaIN math pulled out and unit-tested). Underlying method: Huang & Belongie,
+Underlying method: Huang & Belongie,
 ["Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization"](https://arxiv.org/abs/1703.06868) (2017).
